@@ -15,4 +15,4 @@ Written in Visual C# using Visual Studio 2015.
 
 ### 
 
-<img src="screenshot.jpg" width="900"/>
+<img src="screenshot.jpg" width="640"/>
