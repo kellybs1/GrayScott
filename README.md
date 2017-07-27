@@ -19,6 +19,12 @@ https://mrob.com/pub/comp/xmorphia/
 <a href="https://github.com/kellybs1/GrayScott/tree/master/ReactionAssignment">/ReactionAssignment</a>
 
 
-### 
+### Screenshot
 
 <img src="screenshot.jpg" width="640"/>
+
+
+### Notes
+Contains bugs: An educational project only
+Single-threaded application
+Batch processing automatically creates bitmaps in build directory. Sometimes very many.
