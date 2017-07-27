@@ -1,6 +1,6 @@
 # GrayScott
 
-A basic Gray Scott Simulation as coded for Object Oriented System Design, semester 1, 2017.
+A basic Gray Scott diffusion reaction simulation as coded for Object Oriented System Design, semester 1, 2017.
 
 Written in Visual C# using Visual Studio 2015.
 
