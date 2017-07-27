@@ -11,3 +11,8 @@ Written in Visual C# using Visual Studio 2015.
 ### Source
 
 <a href="https://github.com/kellybs1/GrayScott/tree/master/ReactionAssignment">/ReactionAssignment</a>
+
+
+### 
+
+<img src="screenshot.jpg" with="900"/>
