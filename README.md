@@ -25,6 +25,6 @@ https://mrob.com/pub/comp/xmorphia/
 
 
 ### Notes
-Contains bugs: An educational project only
-Single-threaded application
-Batch processing automatically creates bitmaps in build directory. Sometimes very many.
+Contains bugs: An educational project only    
+Single-threaded application    
+Batch processing automatically creates bitmaps in build directory. Sometimes very many    
