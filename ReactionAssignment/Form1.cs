@@ -97,9 +97,9 @@ namespace ReactionAssignment
             generateManagers();
             iterationCount = 0;
             buttonPause.Enabled = true;
-            timer1.Enabled = true;
+            //start now
+            timer1.Enabled = true;                 
         }
-
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -124,7 +124,6 @@ namespace ReactionAssignment
             simManager.BatchSimulation(nLoops, chosenFeedAStart, chosenFeedAEnd, chosenKillBStart, chosenKillBEnd);
         }
 
-
         //disables the form controls for observable simulation
         private void disableObservableControls()
         {
@@ -134,6 +133,9 @@ namespace ReactionAssignment
             buttonSaveImage.Enabled = false;
             numericUpDownFeedA.Enabled = false;
             numericUpDownKillB.Enabled = false;
+            comboBoxLaplacian.Enabled = false;
+            comboBoxSeed.Enabled = false;
+            comboBoxShader.Enabled = false;
         }
 
 
@@ -146,6 +148,9 @@ namespace ReactionAssignment
             buttonSaveImage.Enabled = true;
             numericUpDownFeedA.Enabled = true;
             numericUpDownKillB.Enabled = true;
+            comboBoxLaplacian.Enabled = true;
+            comboBoxSeed.Enabled = true;
+            comboBoxShader.Enabled = true;
         }
 
 
@@ -185,6 +190,7 @@ namespace ReactionAssignment
         {
             timer1.Enabled = false;           
             formInit();
+            generateManagers();
             enableBatchControls();
             enableObservableControls();
         }

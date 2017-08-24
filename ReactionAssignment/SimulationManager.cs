@@ -45,8 +45,10 @@ namespace ReactionAssignment
         //runs through cycle of method calls required for each cycle of simulation
         public void SimulationCycle()
         {
-            currentCellGrid.ComputeAllNextConcentrations();
-            currentCellGrid.UpdateAllCells();
+            //currentCellGrid.ComputeAllNextConcentrations();
+            currentCellGrid.ComputeAllNextConcentrationsMultiThread();
+            //currentCellGrid.UpdateAllCells();
+            currentCellGrid.UpdateAllCellsMultiThread();
             displayManager.ShadeGrid(currentCellGrid.Cells, currentShadingAlgorithm);
             displayManager.DrawToScreen();
         }
@@ -55,8 +57,10 @@ namespace ReactionAssignment
         //runs through cycle of method calls required for each cycle of simulation without drawing anything to screen
         public void SimulationCycleNoDraw()
         {
-            currentCellGrid.ComputeAllNextConcentrations();
-            currentCellGrid.UpdateAllCells();
+            //currentCellGrid.ComputeAllNextConcentrations();
+            currentCellGrid.ComputeAllNextConcentrationsMultiThread();
+            //currentCellGrid.UpdateAllCells();
+            currentCellGrid.UpdateAllCellsMultiThread();
         }
 
 

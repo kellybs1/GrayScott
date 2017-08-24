@@ -42,7 +42,7 @@ namespace ReactionAssignment
 
         //CellGrid
         public static int N_CELL_NEIGHBOURS = 8;
-        public static int GRID_SIZE_LARGE = 64;
+        public static int GRID_SIZE_LARGE = 64; //must be n^2 (ie, 8, 16, 32, 64, 256 then it gets really slow after that, but it might work?)
 
         //---------------------------------------------------------------------------------------------
 
