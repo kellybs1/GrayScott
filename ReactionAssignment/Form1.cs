@@ -118,10 +118,12 @@ namespace ReactionAssignment
         //runs a batch process
         private void buttonBatch_Click(object sender, EventArgs e)
         {
+            this.Cursor = Cursors.WaitCursor;
             disableObservableControls();
             setValuesFromForm();
             generateManagers();
             simManager.BatchSimulation(nLoops, chosenFeedAStart, chosenFeedAEnd, chosenKillBStart, chosenKillBEnd);
+            this.Cursor = Cursors.Default;
         }
 
         //disables the form controls for observable simulation
