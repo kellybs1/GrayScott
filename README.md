@@ -14,6 +14,10 @@ https://mrob.com/pub/comp/xmorphia/
 
 <a href="https://github.com/kellybs1/GrayScott/blob/master/Builds/ReactionAssignment.exe?raw=true">/Builds/ReactionAssignment.exe</a>
 
+Note: You may need to unblock the executable: Right click the exe -> Properties, and in the bottom section click the Unblock checkbox and then click OK.
+
+<img src="unblock.png">
+
 ### Source
 
 <a href="https://github.com/kellybs1/GrayScott/tree/master/ReactionAssignment">/ReactionAssignment</a>
