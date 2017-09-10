@@ -2,7 +2,7 @@
 
 A basic Gray Scott diffusion reaction simulation as coded for IN710 Object Oriented Systems Development, semester 1, 2017.
 
-Written in Visual C# using Visual Studio 2015.
+Written in C# using Visual Studio 2015.
 
 ### Read about Gray-Scott Diffusion Reaction
 http://www.karlsims.com/rd.html    
